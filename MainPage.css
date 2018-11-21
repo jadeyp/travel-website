@@ -1,0 +1,22 @@
+<style>
+@@font-face {
+  font-family: hansief;
+  src:url('grid_12-825-55-15.css');
+}
+* {
+  font-family: hansief;
+}
+</style>
+
+#socials
+{
+  background-color: #BFBDBD;
+  text-decoration-color: black;
+  font-family: Helvetica;
+}
+
+#header
+{
+  font-family:hansief;
+  font-size: 40px;
+}
