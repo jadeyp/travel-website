@@ -1,22 +1,55 @@
-<style>
-@@font-face {
-  font-family: hansief;
-  src:url('grid_12-825-55-15.css');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BFBDBD;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
-* {
-  font-family: hansief;
+
+li {
+    float:right;
 }
-</style>
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
 
 #socials
 {
-  background-color: #BFBDBD;
-  text-decoration-color: black;
-  font-family: Helvetica;
+  position: relative;
 }
 
 #header
+
 {
-  font-family:hansief;
-  font-size: 40px;
+   font-family: 'Miss Fajardose';font-size: 30px;
+  text-align: center;
+
+}
+
+#navbar
+
+{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #F8655E;
+  display: block;
+  text-align: center;
+  text-decoration-color: black;
+
 }
